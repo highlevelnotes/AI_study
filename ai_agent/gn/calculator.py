@@ -1,6 +1,6 @@
 """
 간단한 계산기 프로그램
-덧셈, 뺄셈, 곱셈, 나눗셈 기능을 제공합니다.
+덧셈, 뺄셈 기능을 제공합니다.
 """
 
 
@@ -14,18 +14,6 @@ def subtract(a, b):
     return a - b
 
 
-def multiply(a, b):
-    """두 수의 곱셈"""
-    return a * b
-
-
-def divide(a, b):
-    """두 수의 나눗셈"""
-    if b == 0:
-        raise ValueError("0으로 나눌 수 없습니다.")
-    return a / b
-
-
 def calculator():
     """계산기 메인 함수"""
     print("=" * 50)
@@ -33,21 +21,19 @@ def calculator():
     print("=" * 50)
     print("1. 덧셈 (+)")
     print("2. 뺄셈 (-)")
-    print("3. 곱셈 (*)")
-    print("4. 나눗셈 (/)")
     print("0. 종료")
     print("=" * 50)
     
     while True:
         try:
-            choice = input("\n연산을 선택하세요 (0-4): ").strip()
+            choice = input("\n연산을 선택하세요 (0-2): ").strip()
             
             if choice == '0':
                 print("계산기를 종료합니다.")
                 break
             
-            if choice not in ['1', '2', '3', '4']:
-                print("잘못된 선택입니다. 0-4 사이의 숫자를 입력하세요.")
+            if choice not in ['1', '2']:
+                print("잘못된 선택입니다. 0-2 사이의 숫자를 입력하세요.")
                 continue
             
             try:
@@ -66,16 +52,6 @@ def calculator():
             elif choice == '2':
                 result = subtract(num1, num2)
                 operator = "-"
-            elif choice == '3':
-                result = multiply(num1, num2)
-                operator = "*"
-            elif choice == '4':
-                try:
-                    result = divide(num1, num2)
-                    operator = "/"
-                except ValueError as e:
-                    print(f"오류: {e}")
-                    continue
             
             print(f"\n결과: {num1} {operator} {num2} = {result}")
             print("-" * 50)
