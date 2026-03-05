@@ -7,3 +7,4 @@ teddynote_live/.env
 kaggle_transcription/**/input/
 RAG_secret_note/.env
 RAG_secret_note/langchain-kr/
+RAG_secret_note/PART 03 - 모델과 메모리/cache
