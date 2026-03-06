@@ -8,3 +8,4 @@ kaggle_transcription/**/input/
 RAG_secret_note/.env
 RAG_secret_note/langchain-kr/
 RAG_secret_note/PART 03 - 모델과 메모리/cache
+RAG_secret_note/PART 03 - 모델과 메모리/EEVE-Korean-Instruct-10.8B-v1.0-Q4_0.gguf
