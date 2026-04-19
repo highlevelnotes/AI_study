@@ -6,6 +6,7 @@ must-have-machine-learning-deep-learning\data\plant-pathology-2020-fgvc7\Efficie
 teddynote_live/.env
 kaggle_transcription/**/input/
 kaggle_transcription/**/*.csv
+kaggle_transcription/**/*.hdf5
 RAG_secret_note/.env
 RAG_secret_note/langchain-kr/
 RAG_secret_note/PART 03 - 모델과 메모리/cache
