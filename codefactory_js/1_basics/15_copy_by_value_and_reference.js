@@ -43,3 +43,61 @@ cloneObj = {
     group: '코드팩토리',
 };
 console.log(originalObj === cloneObj);
+
+const yuJin1 = {
+    name: '안유진',
+    group: '아이브',
+}
+const yuJin2 = yuJin1;
+const yuJin3 = {
+    name: '안유진',
+    group: '아이브'
+}
+
+// true
+console.log(yuJin1 === yuJin2);
+// false
+console.log(yuJin1 === yuJin3);
+// false
+console.log(yuJin2 === yuJin3);
+
+/**
+ * Spread Operator
+ */
+const yuJin4 = {
+    ...yuJin3,
+};
+console.log(yuJin4);
+
+console.log(yuJin4 === yuJin3);
+
+const yuJin5 = {
+    year: 2003,
+    ...yuJin3,
+};
+console.log(yuJin5);
+
+const yuJin6 = {
+    name: '코드팩토리',
+    ...yuJin3,
+};
+console.log(yuJin6);
+
+const yuJin7 = {
+    ...yuJin3,
+    name: '코드팩토리',
+};
+console.log(yuJin7);
+
+const numbers = [1, 3, 5];
+const numbers2 = [
+    10,
+    ...numbers,
+];
+console.log(numbers2);
+
+const numbers3 = [
+    ...numbers,
+    10,
+];
+console.log(numbers3);
