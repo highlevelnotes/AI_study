@@ -12,3 +12,9 @@ RAG_secret_note/langchain-kr/
 RAG_secret_note/PART 03 - 모델과 메모리/cache
 RAG_secret_note/PART 03 - 모델과 메모리/EEVE-Korean-Instruct-10.8B-v1.0-Q4_0.gguf
 do_it_llm_agent/.env
+
+# WavCeption (TF Speech Recognition) notebook - generated run artifacts
+kaggle_transcription/**/~/
+kaggle_transcription/**/.logs_tensorboard/
+kaggle_transcription/**/working/
+kaggle_transcription/**/*.tfevents.*
