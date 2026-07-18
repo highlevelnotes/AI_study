@@ -63,7 +63,7 @@ Received: December 28, 2023
 Revised: May 02, 2024
 Accepted: May 08, 2024
 
----------------------------------------
+-------------------------------
 터 기반의 노지 스마트농업 시범사업을 2020년부터 운영하고 
 있다. 한 예로, 경북 안동 사과 주산지와 충북 괴산 콩 주산지
 를 대상으로 관수⋅관비 등 ICT 기자재와 스마트 농기계 (드
@@ -151,7 +151,7 @@ DSS는 대부분 시설원예를 대상으로 하고 있다. 시설원예 분
 산량 예상과 더불어 다년간의 시계열 환경 데이터로 앞으로 
 일어날 수 있는 생육장애 상황을 고려할 필요가 있으나, 현재 
 
----------------------------------------
+-------------------------------
 관련 시스템을 찾아보기 어려운 실정이다.
 본 연구에서는 밀을 대상으로 재배관리 의사결정 지원시스
 템을 웹 기반으로 설계하고 구축하고자 한다. 과정기반 모형
@@ -194,7 +194,7 @@ DSS는 대부분 시설원예를 대상으로 하고 있다. 시설원예 분
 동되는 시스템을 활용할 수 있다.
 Fig. 1 Framework of web-based wheat farming decision support systems with APSIM scenario 
 
----------------------------------------
+-------------------------------
 2. APSIM 모델
 APSIM (Agricultural Production Systems sIMulator)은 기후
 변화에 따른 작물의 생산성 예측에 주로 활용되는 과정 기반 
@@ -238,7 +238,7 @@ APSIM은 컴포넌트 기반으로 모델이 구성되어, 시스템을 이
 (d) Soil moisture
 Fig. 2 Meteorological conditions for the top-, mid-, low- five years of wheat production by growth stage
 
----------------------------------------
+-------------------------------
 량, 일평균온도, 상대습도, 최대온도, 최저온도, 강수량, 풍속
 으로 기상청에서 제공하는 공공데이터인 일별 종관기상관측 
 (ASOS, Automated Surface Observing System) 데이터를 활용
@@ -287,7 +287,7 @@ Triticum aestivum L.)로 선정하였다. 새금강밀은 금강밀에 비
 용하여 추정하였다.
 Fig. 3 Geographical location for field tests in wheat farming (Harmra-myeon, Iksan-si, Jeollabuk-do)
 
----------------------------------------
+-------------------------------
 다. 밀 생육단계 구분
 식물은 선형적으로 성장하지 않고, 생육단계에 따라 계단
 형태로 성장패턴이 달라진다. 수집한 데이터를 시계열 자료
@@ -473,7 +473,7 @@ DUL: Drained upper limit (mm water/mm3 soil)
 SAT: Saturated water content (mm water/mm3 soil)
 Table 2 Parameters related to soil moisture in APSIM 
 
----------------------------------------
+-------------------------------
 에서 적색 영역은 40년간 평균온도를 의미하며, 황색 영역은 
 평균온도를 기록한 날의 적산온도를 나타낸다. 이는 밀의 생
 육 발달에 영향을 주는 기간으로 적산 되는 온도의 누적량이 
@@ -503,7 +503,7 @@ Table 2 Parameters related to soil moisture in APSIM
 Fig. 4 Average temperature and GDD trend by wheat growth stage
 Fig. 5 Precipitation trend and simulation by top- and bottom-yield year during past 40 years 
 
----------------------------------------
+-------------------------------
 확기를 제외한 단계에서 생산량 상위 5개년이 하위 5개년보
 다 높았으며 통계적으로 유의미하였다. 이는 모형이 신장기, 
 개화 및 출수기와 등숙기에 관개시 밀 생산량 증대를 설명할 
@@ -531,7 +531,7 @@ ASOS 일별 기상자료를 업데이트하여 자동으로 구동되도록
 Fig. 6 Soil moisture trend and simulation by top- and bottom-yield year during past 40 years 
 Fig. 7 Potential yield estimation based on current weather condition 
 
----------------------------------------
+-------------------------------
 Ⅳ. 결 론
 기상환경 조절이 어려운 노지재배에서 가뭄 혹은 습해에 
 따른 급격한 생산량 저하에 대응할 수 있는 의사지원시스템
@@ -639,7 +639,7 @@ Communications Association 10(10): 1145-1156. doi:
 Probert, M. J. Robertson, D. Holzworth, N. I. Huth, J. N. 
 G. Hargreaves, H. Meinke, Z. Hochman, G. McLean, K. 
 
----------------------------------------
+-------------------------------
 Verburg, V. Snow, J. P. Dimes, M. Silburn, E. Wang, S. 
 Brown, K. L. Bristow, S. Asseng, S. Chapman, R. L. 
 McCown, D. M. Freebairn, and C. J. Smith, 2003. An 
@@ -706,4 +706,4 @@ crop model template in the cropping system model APSIM.
 European Journal of Agronomy 18: 121-140. doi: 10.1016/ 
 S1161-0301(02)00100-4.
 
----------------------------------------
+-------------------------------
